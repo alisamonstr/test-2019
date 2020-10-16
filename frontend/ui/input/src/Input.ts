@@ -93,7 +93,7 @@ const InputElement = styled('input', {
       backgroundColor: 'transparent',
       border: 'none',
     },
-  })
+  }),
 )
 
 const Input = ({
@@ -129,12 +129,13 @@ const Input = ({
         }
       },
       ...props,
-    })
+    }),
   )
 
 Input.defaultProps = {
   color: 'blueBayoux',
   borderColor: 'lightGray',
+  // tslint:disable-next-line:no-empty
   onChange: () => {},
 }
 

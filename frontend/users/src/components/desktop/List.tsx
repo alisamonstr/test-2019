@@ -5,7 +5,8 @@ import { Space, Text } from '@ui/text'
 import messages from '../../messages'
 
 interface Props {
-  intl: InjectedIntl
+  intl: InjectedIntl,
+  rows: any[]
 }
 
 const List = ({ rows, intl }: Props) => (

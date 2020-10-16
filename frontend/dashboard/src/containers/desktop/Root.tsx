@@ -10,7 +10,9 @@ import Preload from '../Preload'
 import Routes from './Routes'
 
 interface RootProps {
-  history: History
+  history: History,
+  store: any,
+  persistor: any
 }
 
 const Root = ({ store, persistor, history }: RootProps) => (
